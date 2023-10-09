@@ -11,5 +11,9 @@ int main() {
 	cout << " A B !(A&B)" << endl;
 	cout << "-------------" << endl;
 
+    for (A = 0; A <= 1; A++) {
+        el.FIn1 = A;
+    }
+
 	return 0;
 };
