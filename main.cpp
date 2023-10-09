@@ -13,6 +13,11 @@ int main() {
 
     for (A = 0; A <= 1; A++) {
         el.FIn1 = A;
+        for (B = 0; B <= 1; B++) {
+            el.FIn2 = B;
+            el.FRes = !(el.FIn1 && el.FIn2);
+            cout << " " << A << " " << B << " " << el.FRes << endl;
+        }
     }
 
 	return 0;
