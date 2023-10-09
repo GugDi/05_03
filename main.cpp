@@ -6,4 +6,6 @@ using namespace std;
 int main() {
 	TLogElement el;
 	int A, B;
+
+	return 0;
 };
